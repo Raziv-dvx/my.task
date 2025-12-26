@@ -1,73 +1,78 @@
-# React + TypeScript + Vite
+# 🌟 My.Task - Simple Task Manager for Windows 🌟
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![GitHub stars](https://img.shields.io/github/stars/Raziv-dvx/my.task?style=social)](https://github.com/Raziv-dvx/my.task/stargazers) 
+[![GitHub forks](https://img.shields.io/github/forks/Raziv-dvx/my.task?style=social)](https://github.com/Raziv-dvx/my.task/network/members)  
+[![License](https://img.shields.io/github/license/Raziv-dvx/my.task)](https://github.com/Raziv-dvx/my.task/blob/main/LICENSE)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📝 Overview
+![Main Image](https://github.com/Raziv-dvx/my.task/blob/main/taskmanager/main.png)  
 
-## React Compiler
+**My.Task** is a lightweight and easy-to-use task manager for Windows. Organize your daily workflow with Tasks, Projects, Analytics, Recurring Tasks, and Archive features. Perfect for staying productive without clutter.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Section Guide
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 1️⃣ Task Section
+![Task Section](https://github.com/Raziv-dvx/my.task/blob/main/taskmanager/task.png)  
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+The **Task Section** offers 5 options:  
+- **Today** – Tasks due today  
+- **This Week** – Tasks scheduled for the week  
+- **This Month** – Monthly overview  
+- **Inbox** – Unorganized tasks, quick capture
+- ![Task Section](https://github.com/Raziv-dvx/my.task/blob/main/taskmanager/recurring.png) 
+- **Recurring Tasks** – Daily or repeated tasks without recreating  
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 2️⃣ Projects
+![Project Section](https://github.com/Raziv-dvx/my.task/blob/main/taskmanager/project.png)  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The **Projects Tab** lets you group tasks into specific projects, helping you manage multiple workflows efficiently. Assign tasks to projects to stay organized.  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 3️⃣ Analytics
+![Analytics Section](https://github.com/Raziv-dvx/my.task/blob/main/taskmanager/analytics.png)  
+
+**Analytics** provide a comprehensive overview of your productivity. Track what you’ve completed over days, weeks, or months and visualize your progress with simple charts.  
+
+---
+
+### 4️⃣ Archive
+![Archive Section](https://github.com/Raziv-dvx/my.task/blob/main/taskmanager/archive.png)  
+
+All completed tasks are safely stored in the **Archive**. Access them by day, week, month, or project for record-keeping and review.  
+
+---
+
+## 🚀 Features
+- Tasks management with daily, weekly, and monthly views  
+- Recurring task automation  
+- Project-based task grouping  
+- Productivity analytics dashboard  
+- Archive for historical task tracking  
+
+---
+
+## 📌 Getting Started
+1. Download the latest release from [Releases](https://github.com/Raziv-dvx/my.task/releases)  
+2. Install on Windows  
+3. Start managing your tasks effortlessly  
+
+---
+
+## ⭐ Contributing
+Contributions are welcome! Feel free to open issues, submit pull requests, or suggest features.  
+
+---
+
+## 📄 License
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Raziv-dvx/my.task/blob/main/LICENSE) file for details.
+
+---
+
+> Made with ❤️ for productivity
