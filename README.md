@@ -71,7 +71,7 @@ Contributions are welcome! Feel free to open issues, submit pull requests, or su
 ---
 
 ## 📄 License
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Raziv-dvx/my.task/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Raziv-dvx/my.task/blob/main/License) file for details.
 
 ---
 
