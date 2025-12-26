@@ -2,7 +2,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/Raziv-dvx/my.task?style=social)](https://github.com/Raziv-dvx/my.task/stargazers) 
 [![GitHub forks](https://img.shields.io/github/forks/Raziv-dvx/my.task?style=social)](https://github.com/Raziv-dvx/my.task/network/members)  
-[![License](https://img.shields.io/github/license/Raziv-dvx/my.task)](https://github.com/Raziv-dvx/my.task/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/Raziv-dvx/my.task)](https://github.com/Raziv-dvx/my.task/blob/main/License)
 
 ---
 
