@@ -1,0 +1,16 @@
+End User License Agreement (EULA)
+
+1. Acceptance
+By installing this application, you agree to be bound by these terms.
+
+2. License
+We grant you a personal, non-exclusive license to use this software for personal or commercial purposes.
+
+3. Privacy
+This application stores data locally on your machine. We do not collect or transmit your personal data to external servers.
+
+4. Disclaimer
+This software is provided "as is" without warranty of any kind. We are not liable for any damages arising from its use.
+
+5. Termination
+This license is effective until terminated. You may terminate it by uninstalling the software.

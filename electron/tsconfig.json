@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "commonjs",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "outDir": "../dist-electron",
+        "moduleResolution": "node",
+        "paths": {
+            "*": [
+                "node_modules/*"
+            ]
+        },
+        "strict": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "."
+    ]
+}
